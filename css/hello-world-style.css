@@ -7,25 +7,200 @@
 }
 
 
+/*-------background--------*/
+body { 
+            width: auto;
+            max-width: 1-00px;
+            min-height: 1-00px;
+            font-size: 1.5em;
+            font-family: 'Arapey', serif; 
+            margin: auto;
+            color: black;
+            line-height: 2em;
+            background-color: #E1F2F3;
+}
+
+img.triangle{display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12em;
+padding-top: 25em;
+}
+
 /*-------------------- openning banner------------------------*/
-img.nevillebrody {
+img.aynscover {
   /* Set rules to fill background */
-  min-height: 100%;
+ min-height: 100%;
   min-width: 1024px;
 	
   /* Set up proportionate scaling */
-  width: 100%;
+width: 100%;
   height: auto;
 	
   /* Set up positioning */
-  position:relative;
+ position:relative;
   top: 0;
   left: 0;
 } 
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
-  img.nevillebrody {
+  img.aynscover {
     left: 50%;
     margin-left: -512px;   /* 50% */
   }
 }
+
+
+
+/*-------------- navigation -------------*/
+
+    
+
+nav {   
+        width: 100%;
+        position: absolute;
+        top: 0;
+        font-family: "Myriad Pro Italic";
+        background-color:whitesmoke;
+        font-weight: 500em;
+        padding-top:.8em;
+        padding-bottom:.8em;
+        position:fixed;
+        text-align: center;
+        z-index: 10;
+        opacity: 0.8;
+        }
+
+nav ul {
+    text-align: center;   
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 40px;
+        text-align:right;
+        font-family: "Myriad Pro Italic";
+        }
+
+ li { display: inline;
+}
+
+a:link {
+        text-decoration: none;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 90%;
+        vertical-align: middle;
+}
+        
+
+ a:link {
+        color: black;
+        text-transform: uppercase;
+}
+
+
+a:visited {
+        color:black;
+        text-transform: uppercase;}
+
+
+a:hover {
+    color:dimgrey;
+}
+
+-------------------------
+
+//*img.pics {
+    width: 35em;
+    height: auto;
+    align-content: center
+
+}
+
+
+/*========================= BODY TEXT =================== */
+
+p {font-size: 19px;
+    padding: 0 5em 2em 5em;
+    letter-spacing: 0.03em;
+    color: grey;
+    margin-left: 4em;
+    margin-right: 4em;
+
+}
+
+
+
+.text {width: 100%;
+        
+            min-height: 320px;
+            font-size: 1.1em;
+            font-family: 'Titillium Web', sans-serif; 
+            margin:;
+            line-height: 1.3em;
+		  	text-align: justify;
+			padding: 1em;
+     }
+
+
+.About-me {
+font-family: 'Open Sans', sans-serif;
+font-weight: 400italic;
+font-size: 6em;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+margin-top: -0.7em;
+padding-top: 3.2em;
+position: absolute;
+text-align: center;
+
+}
+
+#intro {
+padding: 21em 0em 2em 0em;
+font-size: 19px;
+letter-spacing: 0.03em;
+color: grey;
+
+}
+
+
+header h2 {
+    font-style: italic;
+    text-align: center;
+    padding: 0.5em 0em 1em 0; 
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    
+}
+
+p, li{ padding: 0em 0 1em 0;
+    letter-spacing: inherit;
+    line-height: 1.7em;
+
+}
+
+.leader {font-style: italic;}
+
+    blockquote {
+        padding: 0.2em 0 0.2em 0;
+        font-size: 1.75em;
+        line-height: 1.5em;
+        margin: 2.5em
+}
+
+    blockquote cite {
+    font-size: 0.75em;
+    }
+    
+    a:hover {
+        text-transform: uppercase;
+        font-size: .75em;
+    }
+    
+    .anchor a:hover {color: darksalmon}
+ 
+
+
