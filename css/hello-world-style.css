@@ -7,7 +7,7 @@
 }
 
 
-h2{font-size: 103px;
+h2{font-size: 80px;
 text-align: center;
 padding: 0.4em 0 0.5em 0;
 }
@@ -93,6 +93,7 @@ nav ul {
         margin: 40px;
         text-align:right;
         font-family: "Cutive";
+        font-size: 0.6em;
         }
 
  li { display: inline;
@@ -126,6 +127,9 @@ a:hover {
 
 /*-------- pictures ------------ */
 .pics1 {align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 padding: 0em 0 0em 0em;}
 
 
