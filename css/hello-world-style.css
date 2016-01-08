@@ -7,25 +7,40 @@
 }
 
 
-/*-------background--------*/
-body { 
-            width: auto;
-            max-width: 1-00px;
-            min-height: 1-00px;
-            font-size: 1.5em;
-            font-family: 'Arapey', serif; 
             margin: auto;
-            color: black;
-            line-height: 2em;
-            background-color: #E1F2F3;
+h2{font-size: 103px;
+text-align: center;
+padding: 0.4em 0 0.5em 0;
 }
 
-img.triangle{display: block;
+p{font-size: 300px;
+padding: 3em 5em 2em 5em;
+    letter-spacing: 0.15em;
+    line-height: 2em;
+    text-align: justify;
+    font-size: 1.1em;
+    color: grey;
+    margin-left: 4em;
+    margin-right:4em;
+
+}
+
+
+img.triangle2 {display: block;
     margin-left: auto;
     margin-right: auto;
     width: 12em;
 padding-top: 25em;
+} 
+
+/*-------background--------*/
+body { 
+            font-family: 'Cutive', serif; 
+            margin: auto;
+            background-color: #E1F2F3;
 }
+
+
 
 /*-------------------- openning banner------------------------*/
 img.aynscover {
@@ -54,18 +69,17 @@ width: 100%;
 
 /*-------------- navigation -------------*/
 
-    
 
 nav {   
         width: 100%;
         position: absolute;
         top: 0;
-        font-family: "Myriad Pro Italic";
+        font-family: "Cutive" serif;
         background-color:whitesmoke;
         font-weight: 500em;
-        padding-top:.8em;
-        padding-bottom:.8em;
-        position:fixed;
+        padding-top: 1.5em;
+        padding-bottom:1.5em;
+        position: fixed;
         text-align: center;
         z-index: 10;
         opacity: 0.8;
@@ -79,7 +93,7 @@ nav ul {
         display: inline;
         margin: 40px;
         text-align:right;
-        font-family: "Myriad Pro Italic";
+        font-family: "Cutive";
         }
 
  li { display: inline;
@@ -87,21 +101,22 @@ nav ul {
 
 a:link {
         text-decoration: none;
+        font-size: 30em;
         letter-spacing: 1px;
         text-transform: uppercase;
-        font-size: 90%;
+        font-size: 200%;
         vertical-align: middle;
 }
         
 
  a:link {
-        color: black;
+        color: #266568;
         text-transform: uppercase;
 }
 
 
 a:visited {
-        color:black;
+        color:#266568;
         text-transform: uppercase;}
 
 
@@ -109,98 +124,13 @@ a:hover {
     color:dimgrey;
 }
 
--------------------------
 
-//*img.pics {
-    width: 35em;
-    height: auto;
-    align-content: center
-
-}
-
-
-/*========================= BODY TEXT =================== */
-
-p {font-size: 19px;
-    padding: 0 5em 2em 5em;
-    letter-spacing: 0.03em;
-    color: grey;
-    margin-left: 4em;
-    margin-right: 4em;
-
-}
+/*-------- pictures ------------ */
+.pics1 {align-content: center;
+padding: 0.8em 0 0em 9em;}
 
 
 
-.text {width: 100%;
-        
-            min-height: 320px;
-            font-size: 1.1em;
-            font-family: 'Titillium Web', sans-serif; 
-            margin:;
-            line-height: 1.3em;
-		  	text-align: justify;
-			padding: 1em;
-     }
 
-
-.About-me {
-font-family: 'Open Sans', sans-serif;
-font-weight: 400italic;
-font-size: 6em;
-margin-left: auto;
-margin-right: auto;
-width: 100%;
-margin-top: -0.7em;
-padding-top: 3.2em;
-position: absolute;
-text-align: center;
-
-}
-
-#intro {
-padding: 21em 0em 2em 0em;
-font-size: 19px;
-letter-spacing: 0.03em;
-color: grey;
-
-}
-
-
-header h2 {
-    font-style: italic;
-    text-align: center;
-    padding: 0.5em 0em 1em 0; 
-    line-height: 1em;
-    letter-spacing: 0.5px;
-    
-}
-
-p, li{ padding: 0em 0 1em 0;
-    letter-spacing: inherit;
-    line-height: 1.7em;
-
-}
-
-.leader {font-style: italic;}
-
-    blockquote {
-        padding: 0.2em 0 0.2em 0;
-        font-size: 1.75em;
-        line-height: 1.5em;
-        margin: 2.5em
-}
-
-    blockquote cite {
-    font-size: 0.75em;
-    }
-    
-    a:hover {
-        text-transform: uppercase;
-        font-size: .75em;
-    }
-    
-    .anchor a:hover {color: darksalmon}
- 
 
 
