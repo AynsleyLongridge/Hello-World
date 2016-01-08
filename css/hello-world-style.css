@@ -129,6 +129,82 @@ a:hover {
 padding: 0.8em 0 0em 9em;}
 
 
+/*--------- social links------------*/
+.social-link:hover > div img
+{
+    transform: translateY(-0.5em);
+    transform: rotate(360deg);
+    transition: all 0.5s ease;
+}
+
+/*---------footer----------*/
+.social {
+    padding-top: .5em;
+}
+
+.social a:hover {
+  opacity: 0.8;
+}
+
+.footer {
+    line-height: 3em;
+    
+}
+/*--------------------MEDIA QUERIES--------------------*/
+        
+/*---------- TABLET ----------------*/
+@media (max-width: 50em) {
+    
+   
+    
+article {
+    width: 95%;
+    padding: 0.5em;
+    } 
+    
+    img {
+    display: block;
+    margin: 1em auto;
+    padding: 0;
+    max-width: 100%;
+    }
+} 
+
+/*----------- SMARTPHONE ----------- */
+ @media (max-width: 30em) {
+    
+   body {
+    margin: auto 0;
+    width: 100%;
+    font-size: 110%;
+    }
+    
+article {
+    width: 90%;
+    } 
+
+h1 {font-size: 2.9em;}   
+
+blockquote p{padding: 0;
+line-height: 1.5em}  
+     
+hgroup h2 {font-size: 1.5em;
+padding-top: 0.5em}  
+     
+nav ul li {font-size: .75em;
+        margin: 10px}
+}
+
+
+        
+
+
+    
+
+
+
+
+
 
 
 
